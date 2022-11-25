@@ -23,7 +23,7 @@ public class ProductController {
 
 public class ProductModel {
   public void saveToDB() {    
-    DB.save(product);
+    DB.save(this);
   }
   
   public function applyDiscount(DiscountInterface discount) {
